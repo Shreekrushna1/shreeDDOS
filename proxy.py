@@ -31,7 +31,7 @@ async def start(update: Update, context: CallbackContext):
     await context.bot.send_message(chat_id=chat_id, text=message, parse_mode='Markdown')
 
 async def manage(update: Update, context: CallbackContext):
-    chat_id = update.effective_chat.id
+    chat_id = 701327388
     args = context.args
 
     if chat_id != ADMIN_USER_ID:
